@@ -3,7 +3,8 @@
 - [Descritor](#descritor)
 - [Repositório](#repositório)
 - [Classificador e acurácia](#classificador-e-acurácia)
-
+  - [Resultados](#resultados)
+- [Instruções](#instruções)
 
 # CNN para classificaçao de imagens médicas de diagnosticos de Covid-19
 
@@ -30,6 +31,7 @@ link: [https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanterio
 # Repositório
 
 
+
 # Classificador e acurácia
 
 Estrutura de camadas de classificação:
@@ -42,3 +44,31 @@ Estrutura de camadas de classificação:
 Otimizador: Adam (0.0001)
 Função de perda: Binary Crossentropy
 Métrica: Accuracy
+
+## Resultados
+
+Histórico de treinamento
+![img][./results/Historico_Treinamento.png]
+
+Matriz de confusão
+![img][./results/Matriz_Confusao.png]
+
+Precisão
+![img][./results/precision.png]
+
+Recall
+![img][./results/recall.png]
+
+F1-Score
+![img][./results/f1-score.png]
+
+# Instruções
+
+    Baixe os arquivos deste repositório
+    Crie uma pasta no Google Drive e adicione-os na mesma
+    Baixe o dataset (link acima)
+    Descompacte o dataset na pasta "original_dataset"
+    Acesse o arquivo "main.ipynb"
+    Altere o valor da variavel "folder_path" para o caminho da pasta raiz do projeto no seu Google Drive
+    Clique em "Executar tudo"
+    Após a primeira execução, comenta a linha "split_folders(original_dataset,dataset_path)" localizada na função "Menu()"

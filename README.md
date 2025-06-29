@@ -1,5 +1,6 @@
 - [CNN para classificaçao de imagens médicas de diagnosticos de Covid-19](#cnn-para-classificaçao-de-imagens-médicas-de-diagnosticos-de-covid-19)
 - [Autor](#autor)
+- [Apresentação](#apresentação)
 - [Descritor](#descritor)
 - [Repositório](#repositório)
 - [Classificador e acurácia](#classificador-e-acurácia)
@@ -15,6 +16,10 @@ Este trabalho foi feito para a matéria de processamento de imagens da UTPFR-CP 
 João Pedro Silva Cassimiro</br>
 2142600</br>
 [https://github.com/JPCassimiro](https://github.com/JPCassimiro)</br>
+
+# Apresentação
+
+[https://drive.google.com/file/d/1dV7xO9C9XW3HGvBRgFBv-TF0GwmYG3d7/view?usp=sharing](https://drive.google.com/file/d/1dV7xO9C9XW3HGvBRgFBv-TF0GwmYG3d7/view?usp=sharing)
 
 # Descritor
 

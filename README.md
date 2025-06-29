@@ -14,7 +14,7 @@ Este trabalho feito para a matéria de processamento de imagens da UTPFR-CP no p
 
 João Pedro Silva Cassimiro</br>
 2142600</br>
-[https://github.com/JPCassimiro][https://github.com/JPCassimiro]</br>
+[https://github.com/JPCassimiro](https://github.com/JPCassimiro)</br>
 
 # Descritor
 
@@ -26,11 +26,11 @@ Dataset: COVID-19 & Normal Posteroanterior(PA) X-rays</br>
 Classes: 2</br>
 Total de imagens: 280</br>
 Sobre: raio-x com duas categorias diferentes, covid ou normal</br>
-link: [https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays][https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays]</br>
+link: [https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays](https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays)</br>
 
 # Repositório
 
-[https://github.com/JPCassimiro/CNN-COVID-19][https://github.com/JPCassimiro/CNN-COVID-19]
+[https://github.com/JPCassimiro/CNN-COVID-19](https://github.com/JPCassimiro/CNN-COVID-19)
 
 # Classificador e acurácia
 
@@ -48,19 +48,19 @@ Métrica: Accuracy</br>
 ## Resultados
 
 Histórico de treinamento
-![image][./results/Historico_Treinamento.png]
+![image](./results/Historico_Treinamento.png)
 
 Matriz de confusão
-![image][./results/Matriz_Confusao.png]
+![image](./results/Matriz_Confusao.png)
 
 Precisão
-![image][./results/precision.png]
+![image](./results/precision.png)
 
 Recall
-![image][./results/recall.png]
+![image](./results/recall.png)
 
 F1-Score
-![image][./results/f1-score.png]
+![image](./results/f1-score.png)
 
 # Instruções
 

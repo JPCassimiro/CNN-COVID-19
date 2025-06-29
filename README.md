@@ -12,25 +12,25 @@ Este trabalho feito para a matéria de processamento de imagens da UTPFR-CP no p
 
 # Autor
 
-João Pedro Silva Cassimiro
-2142600
-[https://github.com/JPCassimiro][https://github.com/JPCassimiro]
+João Pedro Silva Cassimiro</br>
+2142600</br>
+[https://github.com/JPCassimiro][https://github.com/JPCassimiro]</br>
 
 # Descritor
 
-Métodologia: Transfer-learning
-Modelo base: Xception
-Camadas adicionadas de descrição: BatchNormalization, GlobalAveragePooling2D
+Métodologia: Transfer-learning</br>
+Modelo base: Xception</br>
+Camadas adicionadas de descrição: BatchNormalization, GlobalAveragePooling2D</br>
 
-Dataset: COVID-19 & Normal Posteroanterior(PA) X-rays
-Classes: 2
-Total de imagens: 280
-Sobre: raio-x com duas categorias diferentes, covid ou normal
-link: [https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays][https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays]
+Dataset: COVID-19 & Normal Posteroanterior(PA) X-rays</br>
+Classes: 2</br>
+Total de imagens: 280</br>
+Sobre: raio-x com duas categorias diferentes, covid ou normal</br>
+link: [https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays][https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays]</br>
 
 # Repositório
 
-
+[https://github.com/JPCassimiro/CNN-COVID-19][https://github.com/JPCassimiro/CNN-COVID-19]
 
 # Classificador e acurácia
 
@@ -41,26 +41,26 @@ Estrutura de camadas de classificação:
     x = tf.keras.layers.Dropout(0.5)(x)
     output_layer = tf.keras.layers.Dense(1, activation='sigmoid')(x)
 
-Otimizador: Adam (0.0001)
-Função de perda: Binary Crossentropy
-Métrica: Accuracy
+Otimizador: Adam (0.0001)</br>
+Função de perda: Binary Crossentropy</br>
+Métrica: Accuracy</br>
 
 ## Resultados
 
 Histórico de treinamento
-![img][./results/Historico_Treinamento.png]
+![image][./results/Historico_Treinamento.png]
 
 Matriz de confusão
-![img][./results/Matriz_Confusao.png]
+![image][./results/Matriz_Confusao.png]
 
 Precisão
-![img][./results/precision.png]
+![image][./results/precision.png]
 
 Recall
-![img][./results/recall.png]
+![image][./results/recall.png]
 
 F1-Score
-![img][./results/f1-score.png]
+![image][./results/f1-score.png]
 
 # Instruções
 

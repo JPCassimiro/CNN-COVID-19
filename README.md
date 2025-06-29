@@ -8,7 +8,7 @@
 
 # CNN para classificaçao de imagens médicas de diagnosticos de Covid-19
 
-Este trabalho feito para a matéria de processamento de imagens da UTPFR-CP no primero semestre de 2025 no curso de engenharia de computação.
+Este trabalho foi feito para a matéria de processamento de imagens da UTPFR-CP no primeiro semestre de 2025 no curso de engenharia de computação.
 
 # Autor
 
@@ -18,7 +18,7 @@ João Pedro Silva Cassimiro</br>
 
 # Descritor
 
-Métodologia: Transfer-learning</br>
+Metodologia: Transfer-learning</br>
 Modelo base: Xception</br>
 Camadas adicionadas de descrição: BatchNormalization, GlobalAveragePooling2D</br>
 
@@ -69,6 +69,6 @@ F1-Score
     Baixe o dataset (link acima)
     Descompacte o dataset na pasta "original_dataset"
     Acesse o arquivo "main.ipynb"
-    Altere o valor da variavel "folder_path" para o caminho da pasta raiz do projeto no seu Google Drive
+    Altere o valor da variável "folder_path" para o caminho da pasta raiz do projeto no seu Google Drive
     Clique em "Executar tudo"
     Após a primeira execução, comenta a linha "split_folders(original_dataset,dataset_path)" localizada na função "Menu()"
